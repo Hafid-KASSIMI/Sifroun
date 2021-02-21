@@ -1,0 +1,26 @@
+{
+	"name": "Sifroun",
+	"version": "1.0.2",
+	"description": "Puts a zero (0) in the monthly absence track pages of MASSAR sgs.. It can also empty all entries with the zero value (0).",
+	"manifest_version": 2,
+	"icons": {
+		"16": "icons/16x16.png",
+		"32": "icons/32x32.png",
+		"48": "icons/48x48.png",
+		"64": "icons/64x64.png",
+		"128": "icons/128x128.png"
+	},
+	"content_scripts": [
+		{
+		  "matches": [ "https://massar.men.gov.ma/Evaluation/Absence/AbsenceMensuelleParClasse" ],
+		  "js": [
+					"scripts/jquery-3.3.1.min.js",
+					"scripts/main.js"
+		  ],
+		  "css": [
+		  		"css/sifroun.css"
+		  ]
+		}
+	],
+	"permissions": [ ]
+}

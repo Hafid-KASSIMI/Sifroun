@@ -1,0 +1,21 @@
+#zeroAbszeroBtn {
+	background-color: #4CAF50;
+	border: 1px solid dark green;
+	color: white;
+	margin: 5px 0;
+}
+
+#zeroAbszeroBtn:hover {
+	background-color: darkgreen;
+}
+
+#zeroAbszeroRemBtn {
+	background-color: #9c27b0;
+	border: 1px solid #673ab7;
+	color: white;
+	margin: 5px 5px;
+}
+
+#zeroAbszeroRemBtn:hover {
+	background-color: #673ab7;
+}
